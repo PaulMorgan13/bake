@@ -38,9 +38,12 @@ padding: 0 1rem;
 
 
 .section-1{
-    background-image: url(.//../public/spinkles.jpg);
+    background-image: url(.//../public/batter.jpg);
     width: 100vw;
-    height: 400px;
+    height: 450px; 
+    background-size: 100%;  
+    display: flex;
+    padding: 2rem;
 } 
 
 .section-2{
@@ -88,4 +91,21 @@ nav a {
 }  
 
 
+.info {
+    width: 400px;
+    height: 350px;
+    background-color: white;  
+    border: 3px dashed black;  
+    padding: 1.5rem;
 
+}
+
+
+
+.info h1{
+
+    font-size: 2rem;
+    font-family: sans-serif;  
+       
+
+}
