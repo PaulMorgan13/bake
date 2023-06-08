@@ -1,6 +1,14 @@
 import logo from "../../public/onica party planning svg.svg"
 
 export default function Header(){
+
+    for(let i =0; i < 10 ; i++){
+            console.log("right")
+    }
+
+
+
+
         return <header className="head">
                 <nav>
                     <ul>
