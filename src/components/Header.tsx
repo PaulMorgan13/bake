@@ -2,20 +2,18 @@ import logo from "../../public/onica party planning svg.svg"
 
 export default function Header(){
 
-    for(let i =0; i < 10 ; i++){
-            console.log("right")
-    }
+    const pages = ["Home","About", "Order", "Contact"]
 
 
 
 
         return <header className="head">
                 <nav>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/">About</a></li>
-                        <li><a href="/">Order</a></li>
-                        <li><a href="/">Contact</a></li>
+                    <ul>{
+                            pages.map(page=>{
+                               return <li><a href="/">{page}</a></li>
+                            })
+                        }
                     </ul>
 
                 </nav>  
