@@ -81,6 +81,7 @@ nav ul{
 nav a {
     text-decoration: none; 
     color: inherit;
+    text-transform: lowercase;
 
 
 }
@@ -95,7 +96,7 @@ nav a {
     width: 400px;
     height: 350px;
     background-color: white;  
-    border: 3px dashed black;  
+    border: 3px dashed rgb(15, 15, 15);  
     padding: 1.5rem;
 
 }
